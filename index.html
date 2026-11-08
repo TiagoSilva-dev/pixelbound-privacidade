@@ -41,9 +41,9 @@ footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line
 </div>
 </header>
 
-<p class="meta">Última atualização: 14 de outubro de 2026</p>
+<p class="meta">Última atualização: 8 de novembro de 2026</p>
 
-<p>Esta política vale para o jogo <strong>Pixelbound: Echoes of the Rift</strong> (pacote Android <code>com.pixelbound.game</code>), desenvolvido por Tiago S. Pereira, que é o controlador dos dados descritos aqui, nos termos da Lei Geral de Proteção de Dados (Lei 13.709/2018).</p>
+<p>Esta política vale para o jogo <strong>Pixelbound: Echoes of the Rift</strong> (no Android, pacote <code>com.pixelbound.game</code>, e no navegador, pelo Wavedash), desenvolvido por Tiago S. Pereira, que é o controlador dos dados descritos aqui, nos termos da Lei Geral de Proteção de Dados (Lei 13.709/2018).</p>
 
 <p class="summary">Para jogar, você entra com uma conta Google ou com e-mail e senha. Guardamos o seu e-mail, um identificador da conta e o progresso do jogo, só para manter a conta e levar o progresso de um aparelho para outro. Nada é vendido nem usado para anúncios.</p>
 
@@ -54,6 +54,7 @@ footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line
 <li><strong>Dados da conta Google</strong>, se você entrar com o Google: o Google informa o e-mail, o nome e o endereço da foto de perfil da conta escolhida, e o Firebase guarda esses dados no registro da sua conta. O jogo usa só o e-mail.</li>
 <li><strong>Identificador da conta</strong>, um código gerado pelo Firebase que liga você ao seu progresso.</li>
 <li><strong>Progresso do jogo</strong>: heróis, itens, moedas do jogo, conquistas, missões, configurações e as ofertas do jogo que a conta possui, junto com a data em que foi salvo e o sistema em que foi salvo (Android ou Windows).</li>
+<li><strong>Compras</strong>, se você comprar algo: o que foi comprado e o código do comprovante que a loja (Google Play ou Wavedash) devolve. O jogo não recebe nem guarda dados de cartão ou de pagamento.</li>
 <li><strong>Registros técnicos.</strong> Como qualquer serviço na internet, os servidores do Google recebem o endereço IP da conexão e o registram por segurança e para evitar abuso. O jogo não usa o IP para saber onde você está.</li>
 </ul>
 
@@ -62,7 +63,7 @@ footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line
 <p>O jogo não tem anúncios, ferramentas de análise nem rastreamento, e nenhum dado é vendido ou usado para publicidade.</p>
 
 <h2>Com quem</h2>
-<p>As contas e o progresso ficam no <strong>Firebase</strong>, um serviço do Google (Firebase Authentication e Cloud Firestore), que trata os dados em nome do desenvolvedor e segundo os termos de proteção de dados do Google (<a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>). Quem entra com o Google também usa o Login do Google no aparelho. Os servidores do Google podem ficar fora do Brasil, inclusive nos Estados Unidos; essa transferência segue as garantias contratuais do Google. Fora isso, nada é compartilhado com ninguém.</p>
+<p>As contas e o progresso ficam no <strong>Firebase</strong>, um serviço do Google (Firebase Authentication e Cloud Firestore), que trata os dados em nome do desenvolvedor e segundo os termos de proteção de dados do Google (<a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>). Quem entra com o Google também usa o Login do Google no aparelho. As compras são feitas pelo <strong>Google Play</strong> (no Android) ou pelo <strong>Wavedash</strong> (no navegador), como explica a seção Compras. Os servidores do Google podem ficar fora do Brasil, inclusive nos Estados Unidos; essa transferência segue as garantias contratuais do Google. Fora isso, nada é compartilhado com ninguém.</p>
 
 <h2>Segurança</h2>
 <p>Toda comunicação entre o jogo e o Firebase é cifrada (HTTPS). As regras do banco de dados só deixam cada conta ler, gravar e apagar o próprio progresso.</p>
@@ -86,7 +87,10 @@ footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line
 <p>O jogo é destinado a pessoas a partir de 13 anos. Não criamos de propósito contas de crianças menores de 13 anos; se isso acontecer, escreva para o e-mail abaixo e a conta será excluída.</p>
 
 <h2>Compras</h2>
-<p>Nesta versão o jogo não processa pagamentos. Se uma versão futura vender itens pelo Google Play, esta política será atualizada antes do lançamento dela.</p>
+<p>O jogo vende itens opcionais (gemas e ofertas). O pagamento é feito inteiramente pela loja da plataforma: o <strong>Google Play</strong> no Android e o <strong>Wavedash</strong> no navegador. Os dados de pagamento (cartão, endereço de cobrança, nome do comprador) ficam com a loja, segundo a política de privacidade dela, e o jogo nunca os recebe.</p>
+<p>Da loja, o jogo recebe só a confirmação da compra: qual item foi comprado e um código de comprovante. O comprovante é guardado no progresso da sua conta para que cada compra seja entregue uma única vez e para que uma compra que não terminou de ser entregue (porque o jogo fechou no meio, por exemplo) chegue na próxima vez que você abrir o jogo.</p>
+<p>No Android, o jogo envia ao Google Play um código derivado do identificador da sua conta (um <em>hash</em>, que não revela o seu e-mail nem o próprio identificador). Ele liga a compra à conta que a fez, para que um item pago por uma conta não seja entregue a outra conta que entre no mesmo aparelho.</p>
+<p>Pedidos de reembolso seguem as regras da loja em que a compra foi feita.</p>
 
 <h2>Mudanças nesta política</h2>
 <p>Quando esta política mudar, a data no topo muda junto. Mudanças que afetem o que é guardado são avisadas antes de valer.</p>
